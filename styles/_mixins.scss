@@ -1,0 +1,26 @@
+@mixin button() {
+  padding: 18px 38px;
+  border-radius: 30px;
+}
+
+@mixin maxBlockWidth() {
+  margin: 0 auto;
+}
+@mixin navigation() {
+  padding: 0;
+  list-style: none;
+}
+
+@mixin section($url, $position) {
+  background: linear-gradient(
+      180deg,
+      var(--main-background-color) 29.73%,
+      var(--quaternary-color) 100%
+    ),
+    url($url) no-repeat $position;
+}
+
+@mixin activeButton() {
+  background-color: var(--button-color);
+  color: var(--primary-color);
+}
