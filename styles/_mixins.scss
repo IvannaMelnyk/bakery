@@ -1,26 +1,12 @@
 @mixin button() {
-  padding: 18px 38px;
-  border-radius: 30px;
-}
+    text-align: center;
+    font-weight: 900;
+    font-size: var(--buttons-font-size);
+    line-height: var(--buttons-line-height);
+    padding: 18px 38px;
+    color: var(--white-color);
+    background-color: var(--button-color);
+    border-radius: 30px;
+    text-transform: uppercase;
 
-@mixin maxBlockWidth() {
-  margin: 0 auto;
-}
-@mixin navigation() {
-  padding: 0;
-  list-style: none;
-}
-
-@mixin section($url, $position) {
-  background: linear-gradient(
-      180deg,
-      var(--main-background-color) 29.73%,
-      var(--quaternary-color) 100%
-    ),
-    url($url) no-repeat $position;
-}
-
-@mixin activeButton() {
-  background-color: var(--button-color);
-  color: var(--primary-color);
 }

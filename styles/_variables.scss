@@ -1,24 +1,35 @@
 :root {
-  /*colors*/
-  --primary-color: #ffffff;
-  --secondary-color: #c98a40;
-  --button-color: #fdba10;
-  --form-input-color: #ffd39f;
-  --border-color: #ffd8ab;
-  --footer-color: #584125;
-  --corner-radius: 30px;
-  /*sizes*/
-  --primary-font-size: 18px;
-  ---primary-line-height: 26px;
-  --secondary-font-size: 14px;
+  /*text-colors*/
+  --white-color: #ffffff;
+  --accent-color: #c98a40;
+  --grey-colour: #333333;
+  --error-color: #a20d0d;
 
-  --headers-font-size: 144px;
-  --headers-line-height: 138px;
+  --button-color: #fdba10;
+  --footer-color: #584125;
+
+  --form-input-color: #ffd39f;
+  --placeholder-color: #b8bcca;
+  //   --border-color: #ffd8ab;
+
+  /*text-sizes*/
+  --logo-font-size: 28px;
+  --logo-line-height: 1.2;
+
+  --h1-font-size: 74px;
+  --h1-line-height: 1.2;
+
+  --h2-font-size: 144px;
+  --h2-line-height: 0.9;
+
+  --h3-font-size: 16px;
+  --h3-line-height: 1.5;
+
+  --text-font-size: 14px;
+  --text-line-height: 1.4;
 
   --buttons-font-size: 18px;
-  --primary-line-height: 24px;
-  --secondary-line-height: 20px;
-  --contacts-line-height: 17px;
-  /*spaces*/
-  --secondary-space: 18px;
+  --buttons-line-height: 1.3;
+
+  --contacts-line-height: 1.2;
 }
