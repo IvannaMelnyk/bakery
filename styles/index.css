@@ -203,7 +203,7 @@ button {
   font-weight: 600;
   font-size: var(--buttons-font-size);
   line-height: var(--buttons-line-height);
-  color: var(--grey-colour);
+  color: var(--accent-color);
 }
 .section-two__title {
   flex: 1 1 auto;
@@ -220,10 +220,25 @@ button {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  margin-bottom: 30px;
 }
 .section-two__images img {
   max-width: 100%;
   border-radius: 10px;
+}
+.section-two__button {
+  text-align: center;
+}
+.section-two__button a {
+  text-align: center;
+  font-weight: 900;
+  font-size: var(--buttons-font-size);
+  line-height: var(--buttons-line-height);
+  padding: 18px 38px;
+  color: var(--white-color);
+  background-color: var(--button-color);
+  border-radius: 30px;
+  text-transform: uppercase;
 }
 
 .page__section-three {

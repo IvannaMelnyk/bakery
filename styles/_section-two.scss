@@ -32,7 +32,7 @@
       font-size: var(--buttons-font-size);
       line-height: var(--buttons-line-height);
 
-      color: var(--grey-colour);
+      color: var(--accent-color);
     }
   }
 
@@ -57,7 +57,7 @@
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-
+    margin-bottom: 30px;
     img {
       max-width: 100%;
       border-radius: 10px;
@@ -65,4 +65,11 @@
   }
 
   // .section-two__button
+  &__button {
+    text-align: center;
+
+    a {
+      @include button();
+    }
+  }
 }
