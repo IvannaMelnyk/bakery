@@ -25,6 +25,10 @@
     color: var(--white-color);
 
     margin-bottom: 50px;
+
+    @media screen and (max-width: 1199.98px) {
+      font-size: var(--h1-font-size);
+    }
   }
 
   // .section-five__cards
@@ -32,7 +36,7 @@
   &__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--primary-space);
+    gap: 10px;
     justify-items: center;
   }
 
@@ -67,6 +71,10 @@
     border-radius: 30px;
     margin-bottom: 50px;
     margin-right: 0;
+
+    @media screen and (max-width: 1199.98px) {
+      gap: 10px;
+    }
 
     h3 {
       font-weight: 900;

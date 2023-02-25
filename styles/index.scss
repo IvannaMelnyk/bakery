@@ -8,33 +8,31 @@
 @import "section-five";
 @import "section-six";
 
-
 body {
-    font-family: "Poppins", sans-serif;
-    font-size: var(--text-font-size);
-    line-height: var(--text-line-height);
+  font-family: "Poppins", sans-serif;
+  font-size: var(--text-font-size);
+  line-height: var(--text-line-height);
 
-    background-color: var(--white-color);
-    color: var(--grey-colour);
+  background-color: var(--white-color);
+  color: var(--grey-colour);
 }
 
 h1,
 h2 {
-    font-family: "Sen", sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
+  font-family: "Sen", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 /* ---------- */
 
 .wrapper {
-    min-height: 100%;
-    overflow: clip;
+  min-height: 100%;
+  overflow: clip;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
 
 /* ---------- */
 
@@ -54,7 +52,11 @@ h2 {
 /* ----- header ----- */
 
 .header {
-  background: var(--accent-color);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
   // .header__container
 
   &__container img {
